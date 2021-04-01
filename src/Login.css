@@ -1,0 +1,43 @@
+.login__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        margin-top: 20px;
+
+}
+
+.login__forget{
+    font-size:11px;
+    color:blue;
+   font-weight:600;
+    cursor: pointer;
+}
+
+.login__container> button{
+    background-color:blue;
+    color:white;
+    width: 90px;
+    margin-left: 10px;
+    position: inherit;
+     font-weight:700;
+     font-size: 10px;
+     text-transform: inherit;
+}
+
+.login__container > button:hover{
+    background-color: gray;
+    color:blue;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    color:grey;
+    text-align: end;
+ }
+
+ .footer p{
+     margin-right: 30px;
+ }

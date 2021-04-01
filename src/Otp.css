@@ -1,0 +1,66 @@
+.otp{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.otp__container{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.otp__container p{
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.otp__num{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.otp__num p{
+    color: blue;
+    font-size: 10px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+.resendotp{
+    cursor: pointer;
+}
+.otp button{
+    background-color:blue;
+    color:white;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    opacity: 0.8;
+    position: inherit;
+     font-weight:700;
+     font-size: 10px;
+     margin-bottom:40px;
+     text-transform: inherit;
+
+}
+
+.otp > button:hover{
+    background-color: gray;
+    color:blue;
+}
+
+
+.otp__footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:11px;
+}
+
+.otp__login{
+    font-size:14px;
+    color:blue;
+    margin-left: 15px;
+        cursor: pointer;
+
+}

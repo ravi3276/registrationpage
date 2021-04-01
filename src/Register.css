@@ -1,0 +1,81 @@
+.title{
+    color:gray;
+    padding-top:30px;
+    font-size:35px;
+    /* margin-left:10px; */
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register__page{
+    padding:5px;
+    position: relative;
+}
+.register__generate{
+    font-size:11px;
+    color:blue;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.register__form1{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__form1 p{
+    font-size:10px;
+    margin-bottom:5px;
+}
+
+.register__form1 input{
+    padding:5px;
+    height:15px;
+    border-radius:7px;
+    border:none;
+    outline:0;
+}
+
+.register__form2{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    border-bottom: 1px solid grey;
+    margin-bottom:10px;
+
+}
+.register__form2 p{
+    font-size:9px;
+    margin-bottom:10px;
+}
+
+.register__circle{
+
+}
+
+.register__circle > .MuiSvgIcon-root {
+    padding:4px;
+    opacity:0.1;
+    margin-bottom:20px;
+}
+
+.register__footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:11px;
+}
+
+.register__login{
+    font-size:14px;
+    color:blue;
+    margin-left: 15px;
+        cursor: pointer;
+
+}

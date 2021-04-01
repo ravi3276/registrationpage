@@ -1,0 +1,11 @@
+.next{
+    height:100vh;
+    display: grid;
+    /* background-color:#f8f8f8; */
+    place-items: center;
+    position: relative;
+}
+
+.line2{
+    margin-top:10px;
+}

@@ -1,0 +1,41 @@
+.welcome{
+    height:100vh;
+    display: grid;
+    /* background-color:#f8f8f8; */
+    place-items: center;
+    position: relative;
+}
+.welcome__container {
+    padding: 100px;
+    /* text-align: center; */
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) , 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.welcome__box > button {
+    margin-top: 15px;
+    width: 40%;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    text-transform: inherit;
+}
+.welcome__box > button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.avatar__logo{
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 0;  
+}
+.name{
+    color: gray;
+     position: absolute;
+    top: 25px;
+    right: 0;  
+
+}
